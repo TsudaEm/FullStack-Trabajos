@@ -1,0 +1,47 @@
+COMANDOS PARA CREAR UN COMMIT:
+  Comando estándar (recomendado):
+git add . (para preparar los cambios)
+git commit -m "Mensaje descriptivo del cambio".
+    
+  Añadir y comitear todo en un solo comando:
+git commit -am "Mensaje" (solo para archivos ya rastreados, omite archivos nuevos o "untracked").
+    
+  Modificar el último commit:
+git commit --amend -m "Nuevo mensaje corregido" (reemplaza el commit anterior, ideal para corregir errores o agregar archivos olvidados al último commit).
+
+  Abrir editor para mensajes largos:
+git commit (abre el editor predeterminado —usualmente Vim o Nano— para escribir un mensaje detallado).
+
+  Comitear archivos específicos:
+git add archivo1.txt archivo2.js
+git commit -m "Mensaje específico".
+
+COMANDOS PARA HACER UN PUSH:
+
+  Primer Push (Vincular rama local y remota):
+git push -u origin <nombre_de_la_rama>
+  Uso: La opción -u establece la rama remota como referencia predeterminada para futuros push/pull en esa rama.
+  
+  Push estándar (rama ya configurada):
+git push
+  Uso: Envía los commits de la rama actual a su rama configurada en origin.
+  
+  Push a una rama específica:
+git push origin <nombre_de_la_rama>
+  Uso: Actualiza una rama específica en el servidor remoto.
+  
+  Forzar push (sobrescribir historial):
+git push --force o git push -f
+  Uso: Sobrescribe el historial remoto. Úsalo con precaución ya que puede borrar cambios de otros.
+  
+  Forzar push seguro (recomendado):
+git push --force-with-lease
+  Uso: Fuerza el push pero evita sobrescribir cambios si alguien más subió commits que no has descargado, protegiendo el trabajo colaborativo.
+  
+  Subir todas las ramas:
+git push --all origin
+  Uso: Sube todas las ramas locales al repositorio origin.
+  
+  Subir etiquetas (tags):
+git push --tags
+  Uso: Sube todas las etiquetas locales que no están en el repositorio remoto. 
