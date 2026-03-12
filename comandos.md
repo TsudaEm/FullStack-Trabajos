@@ -58,6 +58,14 @@ gh repo clonec <repositorio>
 git add <[archivo...]>
   USO: AGREGA ARCHIVOS A LA ETAPA DE STAGING.
 
-git satatus
-  USO: DA EL ESTADO DE CAMBIOS.
+git commit -m "<mensaje>"
+  USO: HACER UN COMMIT CON UN MENSAJE (guardar cambios).
 
+git satatus
+  USO: DA EL ESTADO DE CAMBIOS. 
+
+git push
+  USO: PUBLICA EN LA NUBE LOS ULTIMOS COMMITS
+
+git pull
+ USO: DESCARGA DE LA NUBE LOS ULTIMOS COMMITS
