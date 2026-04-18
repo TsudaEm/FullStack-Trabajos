@@ -64,3 +64,4 @@ Nombre del archico: nos permite añadir imagenes.
 - `<th></th>`: Encabezado de la tabla
 - <thead></thead>: Categorias de la tabla
 - <tbody></tbody>: cuarpo de la tabla con los datos
+-<table>:tablita si aregas border te queda mejor <table border="1">:tablia mejorada 
