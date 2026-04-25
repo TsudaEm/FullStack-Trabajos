@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#table {
+    margin: 15px;
+}
+
+table {
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+select {
+    border-radius: 5px;
+    border: 1px solid;
+}

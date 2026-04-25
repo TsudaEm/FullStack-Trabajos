@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso</title>
+    <link rel="stylesheet" href="css/ingreso.css">
+</head>
+
+<body>
+
+    <div class="container-ingreso">
+
+        <h1>Ingreso al sistema</h1>
+
+        <fieldset>
+            <legend>Inicio de Sesión</legend>
+
+            <form action="administrador.html">
+                <div class="data-login">
+                    <label for="cedula">Cédula:</label>
+                    <input type="text" id="cedula" name="cedula" autocomplete="username" pattern="[1-9][0-9]{7}"
+                        title="Ingrese 8 digitos sin puntos ni guiones" inputmode="numeric" maxlength="8" placeholder="Ej: 43562578"  required  >
+                </div>
+
+                <div class="data-login"><label for="clave">Contraseña:</label>
+                    <input type="password" id="clave" name="clave" autocomplete="current-password" minlength="8" required>
+                </div>
+
+                <div class="button">
+                    <input  type="submit" value="Iniciar Seción">
+                </div>
+            </form>
+        </fieldset>
+    </div>
+</body>
+
+</html>
