@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 
 .contenedor-personal {
     display: flex;
+=======
+.contenedor-personal {
+    display: flex;
+    gap: 20px;
+>>>>>>> a47ab7b (Archivos corregidos: Trabaja con nosotros.html y css, etiquetas-html)
 }
 
 
@@ -9,7 +15,12 @@
     height: 150px;
     margin: 10px;
     border: 1px solid black;
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     padding: 10px;
 }
+=======
+    padding: 10px;
+}
+>>>>>>> a47ab7b (Archivos corregidos: Trabaja con nosotros.html y css, etiquetas-html)
