@@ -117,3 +117,11 @@ Nombre del archico: nos permite añadir imagenes.
 
 - Seleccion de todos los hijos que sean el mismo (ej: <section> <p></p> <p></p> <spam></spam> </section>)
 `section > p` (selecciona todos los `<p>` que sean hijos de `<section>` )
+<form>
+ es para crear formularios pa que el usuario rellene 
+</form>
+<input type="text">es el canpo dodnde el usuario escribe y el text es el tipo quiere decir que use un tipoo text por ejemplo o que use un tipo email si dice email  
+<textarea></textarea>es un campo pa escribir mucho texto
+<label>Nombre:</label> eS EL TEXTO QUE DEscribe un campo    
+<div class="personal-necessary">SIRVE PARA AGRUPAR COSAS Y USAR CSS
+<h3>Personal de logística</h3> es un subtitulo  

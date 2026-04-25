@@ -1,0 +1,15 @@
+
+.contenedor-personal {
+    display: flex;
+}
+
+
+.personal-necessary {
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
