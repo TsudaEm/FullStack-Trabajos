@@ -19,7 +19,6 @@
     </section>
 
     <section id="sect-personal">
-
         <h1>¡Estamos buscando gente!</h1>
 
         <div class="contenedor-personal">
@@ -50,25 +49,26 @@
     </section>
 
     <section id="sect-formulario">
-        <fieldset>
-            <legend>Solicitud de trabajo</legend>
+        <form onsubmit="alert('Formulario enviado correctamente')">
+            <fieldset>
+                <legend>Solicitud de trabajo</legend>
 
-            <label for="correoElectronico">Correo electrónico</label>
-            <input type="email" name="correoElectronico" id="correoElectronico"
-                placeholder="Ingrese su correo electrónico" autocomplete="email" required>
+                <label for="correoElectronico">Correo electrónico</label>
+                <input type="email" name="correoElectronico" id="correoElectronico"
+                    placeholder="Ingrese su correo electrónico" autocomplete="email" required>
 
-            <label for="curriculumVitae">Currículum Vitae (PDF)</label>
-            <input type="file" name="curriculumVitae" id="curriculumVitae" accept=".pdf,application/pdf" required>
+                <label for="curriculumVitae">Currículum Vitae (PDF)</label>
+                <input type="file" name="curriculumVitae" id="curriculumVitae" accept=".pdf,application/pdf" required>
 
-            <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje" autocomplete="off"
-                required></textarea>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" placeholder="Escriba su mensaje" autocomplete="off"
+                    required></textarea>
 
-            <input type="checkbox" name="aceptaContacto" id="aceptaContacto" required>
-            <label for="aceptaContacto">Acepto ser contactado por la empresa</label>
+                <input type="checkbox" name="aceptaContacto" id="aceptaContacto" required>
+                <label for="aceptaContacto">Acepto ser contactado por la empresa</label>
 
-            <button type="submit">Enviar</button>
-        </fieldset>
+                <button type="submit">Enviar</button>
+            </fieldset>
         </form>
 
         <p>Por cualquier duda comunicarse a <a href="si.si@gmail.com"><em>todoenblancocv@gmail.com</em></a> con el
