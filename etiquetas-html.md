@@ -361,3 +361,11 @@ cambia el color del texto
 
 - Seleccion de todos los hijos que sean el mismo (ej: `<section> <p></p> <p></p> <spam></spam> </section>`)
 `section > p` (selecciona todos los `<p>` que sean hijos de `<section>`)
+
+-ejecuta una accion cuando envias el formulario ej:<form onsubmit="alert('Consulta enviada con éxito')">  
+
+  -ejecuta una accion cuadno envias formulario ej:<form onsubmit="alert('Consulta enviada con éxito')">
+
+  - maxlength: Cantidad maxima de caracteres de caracteres ej:
+   <textarea name="consulta" maxlength="500" placeholder="Ingrese aquí su consulta de forma detallada"
+   -placeholder:texto dentro del input guia
