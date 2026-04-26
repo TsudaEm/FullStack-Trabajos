@@ -1,19 +1,6 @@
 body {
-    margin: 0;
     padding: 0;
-}
-
-.contenedor-personal {
-    display: flex;
-    gap: 20px;
-}
-
-
-.personal-necessary {
-    width: 300px;
-    height: 150px;
-    margin: 10px;
-    border: 1px solid black;
+    margin: 0;
 }
 
 nav {

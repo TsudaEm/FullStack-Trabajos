@@ -1,22 +1,11 @@
+
 body {
-    margin: 0;
     padding: 0;
+    margin: 0;
 }
-
-.contenedor-personal {
-    display: flex;
-    gap: 20px;
-}
-
-
-.personal-necessary {
-    width: 300px;
-    height: 150px;
-    margin: 10px;
-    border: 1px solid black;
-}
-
+ /*Nav*/
 nav {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,32 +49,32 @@ nav {
 
 /*flecha para volver arriba*/
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .flecha-arriba {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
 .flecha-arriba a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    background-color: #1e3a8a;
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    border-radius: 50%;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #1e3a8a;
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .flecha-arriba a:hover {
-    background-color: #2563eb;
-    transform: scale(1.1);
+  background-color: #2563eb;
+  transform: scale(1.1);
 }
 
 body {

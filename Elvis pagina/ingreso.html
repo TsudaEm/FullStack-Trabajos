@@ -8,7 +8,30 @@
     <link rel="stylesheet" href="css/ingreso.css">
 </head>
 
-<body>
+<body id="top">
+
+    <nav>
+
+        <div class="nav-left">
+            <a href="homepge-todoenblanco.html">
+                <img src="Imagenes/logo.png" alt="Logo" class="logo">
+            </a>
+            <h2 class="nombre-empresa">TodoEnBlanco</h2>
+        </div>
+
+        <div class="container-nav-button">
+
+            <div class="button-ingreso">
+                <a href="ingreso.html">Ingreso</a>
+            </div>
+
+            <div class="button-consultas">
+                <a href="consultar.html">Consultas</a>
+            </div>
+
+        </div>
+
+    </nav>
 
     <div class="container-ingreso">
 
@@ -21,19 +44,39 @@
                 <div class="data-login">
                     <label for="cedula">Cédula:</label>
                     <input type="text" id="cedula" name="cedula" autocomplete="username" pattern="[1-9][0-9]{7}"
-                        title="Ingrese 8 digitos sin puntos ni guiones" inputmode="numeric" maxlength="8" placeholder="Ej: 43562578"  required  >
+                        title="Ingrese 8 digitos sin puntos ni guiones" inputmode="numeric" maxlength="8"
+                        placeholder="Ej: 43562578" required>
                 </div>
 
                 <div class="data-login"><label for="clave">Contraseña:</label>
-                    <input type="password" id="clave" name="clave" autocomplete="current-password" minlength="8" required>
+                    <input type="password" id="clave" name="clave" autocomplete="current-password" minlength="8"
+                        required>
                 </div>
 
                 <div class="button">
-                    <input  type="submit" value="Iniciar Seción">
+                    <input type="submit" value="Iniciar Seción">
                 </div>
             </form>
         </fieldset>
     </div>
+
+    <footer>
+        <h2>Contacto y redes</h2>
+
+        <p>WhatsApp: +598 9532 4444</p>
+        <p>Teléfono: 4567 7373</p>
+        <p>Email: todoenblanco@gmail.com</p>
+
+        <a href="https://www.instagram.com/todoenblancoTIENDA">Instagram</a>
+        <a href="https://www.facebook.com/todoenblancoTIENDA">Facebook</a>
+
+        <p>© 2026 TodoEnBlanco</p>
+
+        <div class="flecha-arriba">
+            <a href="#top">🔺</a>
+        </div>
+    </footer>
+
 </body>
 
 </html>

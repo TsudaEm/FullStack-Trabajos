@@ -5,61 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo En Blanco</title>
-
-  <style>
-
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #222;
-      padding: 10px 20px;
-    }
-
-    .nav-left {
-      display: flex;
-      align-items: center;
-    }
-
-    .logo {
-      width: 60px;
-      margin-right: 10px;
-    }
-
-    .nombre-empresa {
-      color: white;
-    }
-
-    .container-nav-button {
-      display: flex;
-      gap: 10px;
-    }
-
-    .button-ingreso a,
-    .button-consultas a {
-      text-decoration: none;
-      background-color: #f5e6c8;
-      padding: 8px 15px;
-      border-radius: 8px;
-      color: black;
-      transition: 0.3s;
-    }
-
-    .button-ingreso a:hover,
-    .button-consultas a:hover {
-      background-color: #e0d2b8;
-    }
-
-  </style>
+  <link rel="stylesheet" href="css/homepage-todoenblanco.css">
 
 </head>
 
-<body>
+<body id="top">
 
   <nav>
 
     <div class="nav-left">
-      <a href="index.html">
+      <a href="homepge-todoenblanco.html">
         <img src="Imagenes/logo.png" alt="Logo" class="logo">
       </a>
       <h2 class="nombre-empresa">TodoEnBlanco</h2>
@@ -68,11 +23,11 @@
     <div class="container-nav-button">
 
       <div class="button-ingreso">
-        <a href="Ingreso.html">Ingreso</a>
+        <a href="ingreso.html">Ingreso</a>
       </div>
 
       <div class="button-consultas">
-        <a href="consultas.html">Consultas</a>
+        <a href="consultar.html">Consultas</a>
       </div>
 
     </div>
@@ -172,6 +127,10 @@
     <a href="https://www.facebook.com/todoenblancoTIENDA">Facebook</a>
 
     <p>© 2026 TodoEnBlanco</p>
+
+    <div class="flecha-arriba">
+      <a href="#top">🔺</a>
+    </div>
   </footer>
 
 </body>
