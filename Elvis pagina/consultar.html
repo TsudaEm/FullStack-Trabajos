@@ -1,18 +1,70 @@
 <html>
 
 <head>
-    <title>Consultar</title>
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="css/consultar.css">
 </head>
 
 <body>
 
-    <h1>Contactos</h1>
+    <h1>Contactanos</h1>
 
-    <p>Puedes consultarnos cualquiera de tus dudas por los siguientes medios, presupuestos o stock de mercadería:</p>
+    <section id="contactos">
+        <div class="container-contactos">
+            <h2>Medios de comunicacion</h2>
 
-    <p>Gmail: todoenblanco@gmail.com</p>
+            <p>Correo electrónico principal: todoenblanco@gmail.com</p>
+            <p>Teléfono fijo: 4567 7373</p>
+            <p>WhatsApp: +598 9532 4444</p>
+        </div>
+    </section>
 
-    <p>Numero de telefono: 099 651 845</p>
+    <section id="formulario-consultas">
+        <div class="container-consultas">
+
+            <h2>Haz tu consulta aqui 👇</h2>
+
+            <form onsubmit="alert('Consulta enviada con éxito')">
+
+                <div class="consulta-data">
+                    <label>Nombre:</label><br>
+                    <input type="text" name="nombre" required>
+                </div>
+
+                <div class="consulta-data">
+                    <label>Apellido:</label><br>
+                    <input type="text" name="apellido" required>
+                </div>
+
+                <div class="consulta-data">
+                    <label>Numero de telefono:</label><br>
+                    <input type="tel" name="telefono" required>
+                </div>
+
+                <div class="consulta-data">
+                    <label>Correo electronico:</label><br>
+                    <input type="email" name="correo" required>
+                </div>
+
+                <div class="consulta-data">
+                    <label>Consulta:</label><br>
+                    <textarea name="consulta" maxlength="500" placeholder="Ingrese aquí su consulta de forma detallada"
+                        required></textarea>
+                </div>
+
+                <div class="consulta-data">
+                    <label>¿Estas de acuerdo de que se te pueda contactar por los medios de contacto adjuntados?</label>
+                    <input type="checkbox" name="contacto" required>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Consultar">
+                </div>
+
+            </form>
+
+        </div>
+    </section>
 
 </body>
 

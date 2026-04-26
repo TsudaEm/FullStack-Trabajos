@@ -1,0 +1,42 @@
+#contactos {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.container-contactos {
+    padding: 10px;
+}
+
+#formulario-consultas {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.container-consultas {
+    padding: 10px;
+}
+
+.consulta-data {
+    margin: 10px;
+}
+
+.consulta-data input {
+    width: 300px;
+    padding: 5px;
+}
+
+.consulta-data textarea {
+    width: 400px;
+    height: 150px;
+    padding: 5px;
+}
+
+.button {
+    margin: 10px;
+}
+
+.button input {
+    padding: 8px 15px;
+}
