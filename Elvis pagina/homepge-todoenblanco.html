@@ -1,75 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo En Blanco</title>
 
+  <style>
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #222;
+      padding: 10px 20px;
+    }
+
+    .nav-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      width: 60px;
+      margin-right: 10px;
+    }
+
+    .nombre-empresa {
+      color: white;
+    }
+
+    .container-nav-button {
+      display: flex;
+      gap: 10px;
+    }
+
+    .button-ingreso a,
+    .button-consultas a {
+      text-decoration: none;
+      background-color: #f5e6c8;
+      padding: 8px 15px;
+      border-radius: 8px;
+      color: black;
+      transition: 0.3s;
+    }
+
+    .button-ingreso a:hover,
+    .button-consultas a:hover {
+      background-color: #e0d2b8;
+    }
+
+  </style>
+
 </head>
 
 <body>
+
+  <nav>
+
+    <div class="nav-left">
+      <a href="index.html">
+        <img src="Imagenes/logo.png" alt="Logo" class="logo">
+      </a>
+      <h2 class="nombre-empresa">TodoEnBlanco</h2>
+    </div>
+
+    <div class="container-nav-button">
+
+      <div class="button-ingreso">
+        <a href="Ingreso.html">Ingreso</a>
+      </div>
+
+      <div class="button-consultas">
+        <a href="consultas.html">Consultas</a>
+      </div>
+
+    </div>
+
+  </nav>
+
+
   <section id="sect-Todoenblanco">
-    <h1>TodoEnBlanco </h1>
-    <img src="Imagenes/logo.png" alt="">
-    <span>
-      <button>"Ingreso para empleados"</button></span>
-    <span> "Bienvenid@ a la mejor empresa de ventas al por mayor"
+    <h1>TodoEnBlanco</h1>
 
-
-
-      <span> "Lo mejor de lo mejor siempre con los mejores, Todo en blanco 😉"
-
-      </span>
+    <p>Bienvenid@ a la mejor empresa de ventas al por mayor</p>
+    <p>Lo mejor de lo mejor siempre con los mejores, Todo en blanco 😉</p>
   </section>
+
   <section id="sect-Comonosmanejamos">
-    <h2>¿Como nos manejamos?</h2>
-    <span> Somos una empresa que vende productos al mayor. Vendemos variados tipos de electrodomésticos, muebles y
-      aparatos de electrónica siempre con la mejor calidad. Cargamos y mandamos a distintas localizaciones y
-      departamentos
-      👌
-    </span>
+    <h2>¿Cómo nos manejamos?</h2>
 
-    <span>¿Quieres saber mas sobre nosotros?<a href="sobre-nosotros.html" target="_blank">Presiona aquí</a></span>
+    <p>
+      Somos una empresa que vende productos al por mayor. Vendemos electrodomésticos,
+      muebles y artículos de electrónica con la mejor calidad.
+    </p>
+
+    <p>
+      ¿Quieres saber más sobre nosotros?
+      <a href="sobre-nosotros.html" target="_blank">Presiona aquí</a>
+    </p>
   </section>
-  <section id="sect-quevendemos">
-    <h3>¿Que vendemos?</h3>
-    <a href="Muebles.html" target="_blank">Muebles </a>
-    <span> , </span>
-    <a href="Electrodomesticos.html" target="_blank">Electrodomesticos</a>
-    <span> y </span>
-    <a href="Articulos-de-electronica.html" target="_blank">Articulos de electronica</a>
 
-    <p>¿Quieres ser parte de nuestro equipo, progresar y aprender nuevas cosas?</p>
-    <p>¿Estas listo para enfrentarte a diversos retos en equipo?</p>
+  <section id="sect-quevendemos">
+    <h2>¿Qué vendemos?</h2>
+
+    <p>
+      <a href="Muebles.html" target="_blank">Muebles</a>,
+      <a href="Electrodomesticos.html" target="_blank">Electrodomésticos</a> y
+      <a href="Articulos-de-electronica.html" target="_blank">Artículos de electrónica</a>
+    </p>
+
+    <p>¿Quieres ser parte de nuestro equipo?</p>
     <a href="Trabaja-con-nosotros.html" target="_blank">Trabaja con nosotros</a>
   </section>
+
   <section id="sect-Testimoniosdeclientes">
+    <h2>Testimonios de clientes</h2>
+
     <article>
-      <h1>Testimonios de clientes</h1>
       <h3>Austeberto Heneda</h3>
       <img src="Imagenes/cliente1.png" alt="">
-      <p>Buenisima entrega y atención, recomiendo pa todos aquellos que son de las pa juera, aquello que vivmo en el
-        campo
-        siempre necesitamos este tipo de empresa, saludos.</p>
+      <p>Buenísima entrega y atención, recomiendo.</p>
     </article>
+
     <article>
       <h3>Horacio Cortantes</h3>
       <img src="Imagenes/random.png" alt="">
-      <p>Llego enterita la mesa pal fondo del rancho, yo no mme lo esperaba pero completita llegó, muy recomendada.</p>
+      <p>Llegó todo en perfecto estado, muy recomendado.</p>
     </article>
+
     <article>
-      <h3> Pincho Filoseda</h3>
+      <h3>Pincho Filoseda</h3>
       <img src="Imagenes/paisano2.png" alt="">
-      <p>Exelente porducto de gran calidad, ahora la suegra no me invade la casa para enfriar las vevidas, saludos.</p>
+      <p>Excelente producto de gran calidad.</p>
     </article>
   </section>
+
   <section id="sect-coberturaentrega">
     <h2>Coberturas de entregas</h2>
 
-    <p>Hacemos entregas cada semana y con una mayor demora dependiendo la lejanía de la ubicación a entregar.</p>
-
-    <h3>Envíos a diferentes países con una mayor cobertura en el norte:</h3>
+    <p>Hacemos entregas cada semana dependiendo la ubicación.</p>
 
     <table border="1">
       <tr>
@@ -78,43 +148,32 @@
         <td>Rivera</td>
         <td>Salto</td>
         <td>Paysandú</td>
-        <td>Durazno</td>
-        <td>Florida</td>
-        <td>Treinta y Tres</td>
       </tr>
       <tr>
-        <th>Tipo de cobertura</th>
+        <th>Cobertura</th>
         <td>Total</td>
         <td>Total</td>
         <td>Total</td>
         <td>Parcial</td>
-        <td>Parcial</td>
-        <td>Baja demanda</td>
-        <td>Baja demanda</td>
       </tr>
     </table>
 
-    <p>Por el momento no tenemos cobertura a: Montevideo, Maldonado, Canelones y Piriápolis.</p>
+    <p>No tenemos cobertura en Montevideo, Maldonado y Canelones.</p>
   </section>
 
   <footer>
-    <h2>Conoce más sobre nosotros en nuestras redes sociales:</h2>
+    <h2>Contacto y redes</h2>
+
+    <p>WhatsApp: +598 9532 4444</p>
+    <p>Teléfono: 4567 7373</p>
+    <p>Email: todoenblanco@gmail.com</p>
 
     <a href="https://www.instagram.com/todoenblancoTIENDA">Instagram</a>
-
     <a href="https://www.facebook.com/todoenblancoTIENDA">Facebook</a>
-    </section>
-    <section id="sect-contacto">
-      <h2>Contáctanos a través de:</h2>
 
-      <p>WhatsApp: +598 9532 4444</p>
-
-      <p>Teléfono fijo: 4567 7373</p>
-
-      <p>Correo electrónico principal: todoenblanco@gmail.com</p>
-
+    <p>© 2026 TodoEnBlanco</p>
   </footer>
-</body>
 
+</body>
 
 </html>
