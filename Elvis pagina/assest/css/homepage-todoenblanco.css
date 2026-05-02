@@ -1,4 +1,4 @@
-
+ 
 body {
     padding: 0;
     margin: 0;
@@ -27,13 +27,15 @@ nav {
     color: white;
 }
 
-.container-nav-button {
-    display: flex;
+.buttons-container {
+    list-style-type: none; 
+    display: flex;         
     gap: 10px;
+    padding: 0;
+    margin: 0;
 }
 
-.button-ingreso a,
-.button-consultas a {
+.buttons-container a {
     text-decoration: none;
     background-color: #f5e6c8;
     padding: 8px 15px;
@@ -42,11 +44,9 @@ nav {
     transition: 0.3s;
 }
 
-.button-ingreso a:hover,
-.button-consultas a:hover {
+.buttons-container a:hover {
     background-color: #e0d2b8;
 }
-
 /*flecha para volver arriba*/
 html {
   scroll-behavior: smooth;

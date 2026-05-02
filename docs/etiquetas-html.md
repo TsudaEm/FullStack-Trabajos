@@ -57,8 +57,7 @@ Nombre del archico: nos permite añadir imagenes.
 - `<cite> </cite>` Citado de una obra 
 - `<i></i>`: texto cursiva 
 
-- `<a>...</a>`:Hipervinculo a otros lugares. Ejemplo: `<a href="otra pagina.html" target="_blank">Enlace </a>`
-## Tabla
+- <a>...</a>: Hipervinculo. href para ingresar la ruta/url a la cual redirigirse. target indica si abrirlo en la misma pestania o en otra, para abrirlo en otra se usa target="_blank. Se usa mailto en el atributo href para redirigir al usuario a enviar un correo, ejemplo: href="mailto:correo@aol.com". Lo mismo de mailto ocurre con tel. Ejemplo: <a href="otraPagina.html" target="_blank">Enlace</a>
 
 - `<table></table>`: Indica seccion con tabla
 
@@ -119,10 +118,34 @@ Sirve para indicar qué grupo de datos contiene ese recuadro.
 
 
 
--ejecuta una accion cuando envias el formulario ej:<form onsubmit="alert('Consulta enviada con éxito')">  
+-onsubmit :ejecuta una accion cuando envias el formulario ej:<form onsubmit="alert('Consulta enviada con éxito')">  
 
   -ejecuta una accion cuadno envias formulario ej:<form onsubmit="alert('Consulta enviada con éxito')">
 
   - maxlength: Cantidad maxima de caracteres de caracteres ej:
    <textarea name="consulta" maxlength="500" placeholder="Ingrese aquí su consulta de forma detallada"
    -placeholder:texto dentro del input guia
+
+  minlength : Limita el minimo de caracteres que se pueden utilizar.
+
+  pattern="[0-9]{8}": Pone como condición un patron. En este caso, los datos que ingrese el usuario deben ser únicamente números naturales del 0 al 9, y deben ser 8, ni más ni menos.
+
+  accept=".extension": Permite ciertas extensiones de archivos (solo en un input type file).
+
+  autocomplete="name": Permite autocompletar un campo.
+
+  required: Hace que el campo sea obligatorio.
+
+  autofocus: Hace que esté seleccionado el campo automáticamente al ingresar a la página.
+
+<input>: Permite al usuario ingresar un dato que puede ser utilizado por la página. Este comando puede recibir muchos atributos para configurar información sobre el dato y parámetros sobre cómo se va a usar después. Usar type para especificar que tipo de atributo se quiere recibir.
+
+<input type="password">: No hace visible lo que el usuario está escribiendo.
+
+<input type="number">: Hace que solo se permitan ingresar numeros.
+
+<input type="email">,: Agrega un campo para el formato email.
+
+<input type="checkbox">: Crea un campo seleccionable.
+
+<input type="submit">: Cumple la misma función que <button> cuando está adentro de un form.
