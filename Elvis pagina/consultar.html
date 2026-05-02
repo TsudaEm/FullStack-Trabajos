@@ -1,94 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactanos</title>
+    <title>Contáctanos</title>
+
     <link rel="stylesheet" href="assest/css/consultar.css">
     <link rel="stylesheet" href="assest/css/global.css">
-
 </head>
 
 <body id="top">
 
+    <!-- NAV (correcto en lista) -->
     <nav>
 
-        <div class="nav-left">
-            <a href="homepge-todoenblanco.html">
-                <img src="assest/Imagenes/logo.png" alt="Logo" class="logo">
-            </a>
-            <h2 class="nombre-empresa">TodoEnBlanco</h2>
-        </div>
-
-
         <ul class="buttons-container">
-            <li><a href="ingreso.html">ingreso</a></li>
-            <li><a href="consultar.html">consultar</a></li>
+
+            <li>
+                <a href="homepage-todoenblanco.html">
+                    <img src="assest/Imagenes/logo.png" alt="Logo TodoEnBlanco" class="logo">
+                    TodoEnBlanco
+                </a>
+            </li>
+
+            <li><a href="ingreso.html">Ingreso</a></li>
+            <li><a href="consultar.html">Consultar</a></li>
+
         </ul>
 
     </nav>
 
-    <h1>Contactanos</h1>
+    <main>
 
-    <section id="contactos">
-        <div class="container-contactos">
-            <h2>Medios de comunicacion</h2>
+        <!-- CONTACTO -->
+        <section id="contactos">
+
+            <h1>Contáctanos</h1>
+
+            <h2>Medios de comunicación</h2>
 
             <p>Correo electrónico principal: todoenblanco@gmail.com</p>
             <p>Teléfono fijo: 4567 7373</p>
             <p>WhatsApp: +598 9532 4444</p>
-        </div>
-    </section>
 
-    <section id="formulario-consultas">
-        <div class="container-consultas">
+        </section>
 
-            <h2>Haz tu consulta aqui 👇</h2>
+        <!-- FORMULARIO -->
+        <section id="formulario-consultas">
+
+            <h2>Haz tu consulta aquí 👇</h2>
 
             <form action="envio-exitoso.html" onsubmit="alert('Consulta enviada con éxito')">
 
-                <div class="consulta-data">
-                    <label>Nombre:</label><br>
-                    <input type="text" name="nombre" required>
-                </div>
+                <label>Nombre:</label>
+                <input type="text" name="nombre" required>
 
-                <div class="consulta-data">
-                    <label>Apellido:</label><br>
-                    <input type="text" name="apellido" required>
-                </div>
+                <label>Apellido:</label>
+                <input type="text" name="apellido" required>
 
-                <div class="consulta-data">
-                    <label>Numero de telefono:</label><br>
-                    <input type="tel" name="telefono" required>
-                </div>
+                <label>Número de teléfono:</label>
+                <input type="tel" name="telefono" required>
 
-                <div class="consulta-data">
-                    <label>Correo electronico:</label><br>
-                    <input type="email" name="correo" required>
-                </div>
+                <label>Correo electrónico:</label>
+                <input type="email" name="correo" required>
 
-                <div class="consulta-data">
-                    <label>Consulta:</label><br>
-                    <textarea name="consulta" maxlength="500" placeholder="Ingrese aquí su consulta de forma detallada"
-                        required></textarea>
-                </div>
+                <label>Consulta:</label>
+                <textarea name="consulta" maxlength="500" placeholder="Ingrese aquí su consulta" required></textarea>
 
-                <div class="consulta-data">
-                    <label>¿Estas de acuerdo de que se te pueda contactar por los medios de contacto adjuntados?</label>
+                <label>
                     <input type="checkbox" name="contacto" required>
-                </div>
+                    Acepto ser contactado por los medios adjuntados
+                </label>
 
-                <div class="button">
-                    <input type="submit" value="Consultar">
-                </div>
+                <input type="submit" value="Consultar">
 
             </form>
 
-        </div>
-    </section>
+        </section>
 
+    </main>
+
+    <!-- FOOTER -->
     <footer>
+
         <h2>Contacto y redes</h2>
 
         <p>WhatsApp: +598 9532 4444</p>
@@ -103,6 +98,7 @@
         <div class="flecha-arriba">
             <a href="#top">🔺</a>
         </div>
+
     </footer>
 
 </body>

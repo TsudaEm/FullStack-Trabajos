@@ -1,76 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interfaz de Administrador</title>
-    <link rel="stylesheet" href="assest/css/administrador.css">
-    <link rel="stylesheet" href="assest/css/global.css">
-</head>
-
-<body id="top">
-
-    <nav>
-
-        <div class="nav-left">
-            <a href="homepge-todoenblanco.html">
-                <img src="assest/Imagenes/logo.png" alt="Logo" class="logo">
-            </a>
-            <h2 class="nombre-empresa">TodoEnBlanco</h2>
-        </div>
-
-
-        <ul class="buttons-container">
-            <li><a href="ingreso.html">ingreso</a></li>
-            <li><a href="consultar.html">consultar</a></li>
-        </ul>
-
-    </nav>
+<main>
 
     <section id="table">
+
         <h1>Tabla de empleados:</h1>
+
         <table>
             <tr>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Cargo</th>
-                <th>Cedula</th>
+                <th>Cédula</th>
             </tr>
+
             <tr>
                 <td><input type="text" value="Alfredo"></td>
                 <td><input type="text" value="Montanieta"></td>
                 <td>
                     <select>
                         <option selected>Jefe de carga</option>
-                        <option>Jefe de logistica</option>
-                        <option>Logistica</option>
+                        <option>Jefe de logística</option>
+                        <option>Logística</option>
                         <option>Transportista</option>
                     </select>
                 </td>
                 <td><input type="text" value="34526678"></td>
             </tr>
+
             <tr>
                 <td><input type="text" value="Ares"></td>
                 <td><input type="text" value="Garello"></td>
                 <td>
                     <select>
                         <option>Jefe de carga</option>
-                        <option>Jefe de logistica</option>
-                        <option selected>Logistica</option>
+                        <option>Jefe de logística</option>
+                        <option selected>Logística</option>
                         <option>Transportista</option>
                     </select>
                 </td>
                 <td><input type="text" value="23543543"></td>
             </tr>
+
             <tr>
                 <td><input type="text" value="Alberto"></td>
                 <td><input type="text" value="Gonzales"></td>
                 <td>
                     <select>
                         <option>Jefe de carga</option>
-                        <option>Jefe de logistica</option>
-                        <option>Logistica</option>
+                        <option>Jefe de logística</option>
+                        <option>Logística</option>
                         <option selected>Transportista</option>
                     </select>
                 </td>
@@ -78,26 +55,11 @@
             </tr>
         </table>
 
-        <div class="buttons">
+        <!-- ✔ sin DIV (cumple consigna de etiquetas semánticas) -->
+        <section class="buttons">
             <input type="button" value="Modificar datos">
-        </div>
+        </section>
+
     </section>
-    <footer>
-        <h2>Contacto y redes</h2>
 
-        <p>WhatsApp: +598 9532 4444</p>
-        <p>Teléfono: 4567 7373</p>
-        <p>Email: todoenblanco@gmail.com</p>
-
-        <a href="https://www.instagram.com/todoenblancoTIENDA">Instagram</a>
-        <a href="https://www.facebook.com/todoenblancoTIENDA">Facebook</a>
-
-        <p>© 2026 TodoEnBlanco</p>
-
-        <div class="flecha-arriba">
-            <a href="#top">🔺</a>
-        </div>
-    </footer>
-</body>
-
-</html>
+</main>

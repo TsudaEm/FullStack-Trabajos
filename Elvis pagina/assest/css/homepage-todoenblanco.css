@@ -1,200 +1,122 @@
- 
-
-body {
-    padding: 0;
+/* RESET */
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
- /*Nav*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* BODY */
+body {
+    background-color: #f4efe7;
+    font-family: Arial, sans-serif;
+}
+
+/* NAV */
 nav {
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #222;
+    background-color: #47606f;
     padding: 10px 20px;
 }
 
-.nav-left {
+/* UL NAV (OBLIGATORIO SIN PUNTOS + EN FILA) */
+.buttons-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* ITEMS NAV */
+.buttons-container li {
     display: flex;
     align-items: center;
 }
 
-.logo {
-    width: 60px;
-    margin-right: 10px;
-}
-
-.nombre-empresa {
-    color: white;
-}
-
-.buttons-container {
-    list-style-type: none; 
-    display: flex;         
-    gap: 10px;
-    padding: 0;
-    margin: 0;
-}
-
+/* LINKS NAV */
 .buttons-container a {
     text-decoration: none;
     background-color: #f5e6c8;
     padding: 8px 15px;
     border-radius: 8px;
     color: black;
-    transition: 0.3s;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
-.buttons-container a:hover {
-    background-color: #e0d2b8;
-}
-/*flecha para volver arriba*/
-html {
-  scroll-behavior: smooth;
+/* LOGO */
+.logo {
+    width: 40px;
 }
 
-.flecha-arriba {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.flecha-arriba a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  background-color: #1e3a8a;
-  color: white;
-  text-decoration: none;
-  font-size: 24px;
-  border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-.flecha-arriba a:hover {
-  background-color: #2563eb;
-  transform: scale(1.1);
-}
-
-body {
-    background-color: #f4efe7;
-    color: #2b2b2b;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-}
-
-nav {
-    background-color: #47606f;
-    border-bottom: 4px solid #eeb906;
-}
-
-.nombre-empresa {
-    color: #ffffff;
-    letter-spacing: 1px;
-}
-
+/* SECCIONES */
 section {
-    background-color: #ffffff;
+    background-color: white;
     margin: 25px auto;
-    padding: 25px;
+    padding: 20px;
     width: 85%;
-    border-radius: 12px;
-    border-left: 6px solid #eeb906;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
 }
 
-h1, h2, h3 {
-    color: #4e5b64;
-    margin-top: 0;
+/* IMAGENES (QUE VENDEMOS) */
+.imagenes-container {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* requerido por consigna */
+
+    gap: 20px;
+    text-align: center; /* si el texto no queda centrado */
 }
 
-p, li {
-    font-size: 16px;
+/* ITEMS */
+.imagenes-container li {
+    text-align: center;
 }
 
-a {
-    color: #47606f;
-    font-weight: bold;
+/* LINKS PRODUCTOS */
+.productoLink {
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-a:hover {
-    color: #eeb906;
-}
-
-img {
-    max-width: 300px;
-    height: auto;
-    border-radius: 12px;
-    display: block;
-    margin: 15px auto;
-}
-
-button,
-input[type="submit"] {
-    background-color: #eeb906;
-    color: #2b2b2b;
-    border: none;
-    padding: 10px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
+/* IMAGENES */
+.productoLink img {
+    width: 150px;
     transition: 0.3s;
 }
 
-button:hover,
-input[type="submit"]:hover {
-    background-color: #c0c0c0;
-    transform: scale(1.03);
+.productoLink img:hover {
+    transform: scale(1.05);
 }
 
-input,
-textarea,
-select {
-    padding: 8px;
-    border: 1px solid #c0c0c0;
-    border-radius: 6px;
-}
-
-table {
-    background-color: #ffffff;
-    border-collapse: collapse;
-    width: 85%;
-}
-
-th {
-    background-color: #4e5b64;
-    color: white;
-    padding: 10px;
-}
-
-td {
-    padding: 10px;
-    border: 1px solid #c0c0c0;
-}
-
+/* FOOTER */
 footer {
-    background-color: #4e5b64;
+    background-color: #47606f;
     color: white;
     text-align: center;
-    padding: 25px;
-    margin-top: 30px;
+    padding: 20px;
 }
 
-footer a {
-    color: #eeb906;
-    margin: 0 8px;
+/* FLECHA */
+.flecha-arriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
 
 .flecha-arriba a {
     background-color: #eeb906;
-    color: #2b2b2b;
-    transition: 0.3s;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
 }
-
-.flecha-arriba a:hover {
-    background-color: #c0c0c0;
-    transform: scale(1.1);
-}
-
