@@ -3,6 +3,10 @@ body {
     padding: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
