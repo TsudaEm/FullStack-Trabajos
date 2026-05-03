@@ -14,14 +14,14 @@
 
   <nav>
 
-    <ul class="buttons-container">
+    <div class="nav-left">
+      <a href="homepge-todoenblanco.html">
+        <img src="assest/Imagenes/logo.png" alt="Logo" class="logo">
+      </a>
+      <h2 class="nombre-empresa">TodoEnBlanco</h2>
+    </div>
 
-      <li>
-        <a href="homepage-todoenblanco.html">
-          <img src="assest/Imagenes/logo.png" alt="Logo TodoEnBlanco" class="logo">
-          TodoEnBlanco
-        </a>
-      </li>
+    <ul class="buttons-container">
 
       <li><a href="ingreso.html">Ingreso</a></li>
       <li><a href="consultar.html">Consultar</a></li>
@@ -48,7 +48,7 @@
 
       <p>
         ¿Quieres saber más sobre nosotros?
-        <a href="sobre-nosotros.html" target="_blank">Presiona aquí</a>
+        <a href="sobre-nosotros.html">Presiona aquí</a>
       </p>
     </section>
 
@@ -59,24 +59,30 @@
       <ul class="imagenes-container">
 
         <li>
-          <a href="Muebles.html" target="_blank">
-            <img src="assest/Imagenes/comoda.jpeg" alt="Muebles">
-            <p>Muebles</p>
-          </a>
+          <figure>
+            <a href="Muebles.html">
+              <img src="assest/Imagenes/comoda.jpeg" alt="Muebles">
+              <figcaption>Muebles</figcaption>
+            </a>
+          </figure>
         </li>
 
         <li>
-          <a href="Electrodomesticos.html" target="_blank">
-            <img src="assest/Imagenes/freidora.jpeg" alt="Electrodomésticos">
-            <p>Electrodomésticos</p>
-          </a>
+          <figure>
+            <a href="Electrodomesticos.html">
+              <img src="assest/Imagenes/freidora.jpeg" alt="Electrodomésticos">
+              <figcaption>Electrodomésticos</figcaption>
+            </a>
+          </figure>
         </li>
 
         <li>
-          <a href="Articulos-de-electronica.html" target="_blank">
-            <img src="assest/Imagenes/tv.jpeg" alt="Electrónica">
-            <p>Electrónica</p>
-          </a>
+          <figure>
+            <a href="Articulos-de-electronica.html">
+              <img src="assest/Imagenes/tv.jpeg" alt="Electrónica">
+              <figcaption>Electrónica</figcaption>
+            </a>
+          </figure>
         </li>
 
       </ul>
@@ -85,25 +91,26 @@
 
     <section>
       <p>¿Quieres ser parte de nuestro equipo?</p>
-      <a href="Trabaja-con-nosotros.html" target="_blank">Trabaja con nosotros</a>
+      <a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a>
     </section>
 
-    <section>
+    <section class="container-clientes">
       <h2>Clientes</h2>
 
-      <article>
-        <h3>Austeberto Heneda</h3>
-        <img src="assest/Imagenes/cliente1.png" alt="Cliente 1">
-        <p>Buenísima entrega y atención.</p>
-      </article>
 
-      <article>
+      <article class="article-cliente">
         <h3>Horacio Cortantes</h3>
         <img src="assest/Imagenes/random.png" alt="Cliente 2">
         <p>Todo en perfecto estado.</p>
       </article>
 
-      <article>
+      <article class="article-cliente">
+        <h3>Austeberto Heneda</h3>
+        <img src="assest/Imagenes/cliente1.png" alt="Cliente 1">
+        <p>Buenísima entrega y atención.</p>
+      </article>
+
+      <article class="article-cliente">
         <h3>Pincho Filoseda</h3>
         <img src="assest/Imagenes/paisano2.png" alt="Cliente 3">
         <p>Excelente calidad.</p>
@@ -124,12 +131,18 @@
           <td>Rivera</td>
           <td>Salto</td>
           <td>Paysandú</td>
+          <td>Montevideo</td>
+          <td>Canelones</td>
+          <td>FLores</td>
         </tr>
         <tr>
           <th>Cobertura</th>
           <td>Total</td>
           <td>Total</td>
           <td>Total</td>
+          <td>Total</td>
+          <td>Nula</td>
+          <td>Nula</td>
           <td>Parcial</td>
         </tr>
       </table>

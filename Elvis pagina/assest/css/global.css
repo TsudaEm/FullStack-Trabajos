@@ -3,7 +3,15 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul {
+    list-style-type: none;
+}
+
+nav li {
     list-style-type: none;
 }
 
@@ -15,14 +23,19 @@ nav {
     padding: 10px 20px;
 }
 
-.button-ingreso a,
-.button-consultas a {
+.buttons-container a {
     text-decoration: none;
     background-color: #f5e6c8;
     padding: 8px 15px;
     border-radius: 8px;
     color: black;
     transition: 0.3s;
+
+}
+
+.buttons-container li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
 .nav-left {
@@ -30,10 +43,10 @@ nav {
     align-items: center;
 }
 
-.button-ingreso a:hover,
-.button-consultas a:hover {
+.buttons-container a:hover {
     background-color: #e0d2b8;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -169,10 +182,12 @@ a {
 a:hover {
     color: #eeb906;
 }
+
 .logo {
     width: 60px;
     margin-right: 10px;
 }
+
 input,
 textarea,
 select {
@@ -180,10 +195,14 @@ select {
     border: 1px solid #c0c0c0;
     border-radius: 6px;
 }
+
 .nombre-empresa {
     color: white;
-}.container-nav-button {
+}
+
+.container-nav-button {
     display: flex;
     gap: 10px;
 }
+
 

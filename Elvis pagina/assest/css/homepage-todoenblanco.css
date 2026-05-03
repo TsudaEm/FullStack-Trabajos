@@ -1,63 +1,6 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-    background-color: #f4efe7;
-    font-family: Arial, sans-serif;
-}
-
-nav {
-    background-color: #47606f;
-    padding: 10px 20px;
-}
-
-.buttons-container {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.buttons-container li {
-    display: flex;
-    align-items: center;
-}
-
-.buttons-container a {
-    text-decoration: none;
-    background-color: #f5e6c8;
-    padding: 8px 15px;
-    border-radius: 8px;
-    color: black;
-
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-.logo {
-    width: 40px;
-}
-
-section {
-    background-color: white;
-    margin: 25px auto;
-    padding: 20px;
-    width: 85%;
-    border-radius: 10px;
-}
-
 .imagenes-container {
     list-style-type: none;
-
+    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,47 +9,30 @@ section {
     text-align: center;
 }
 
-.imagenes-container li {
-    text-align: center;
-}
-
-.productoLink {
-    text-decoration: none;
-    color: black;
-
-    display: flex;
-    flex-direction: column;
+.container-clientes article {
     align-items: center;
-}
-
-
-.productoLink img {
-    width: 150px;
-    transition: 0.3s;
-}
-
-.productoLink img:hover {
-    transform: scale(1.05);
-}
-
-
-footer {
-    background-color: #47606f;
-    color: white;
     text-align: center;
-    padding: 20px;
+    
+
+}
+
+.container-clientes article {
+    display: inline-block;
+    margin: 20px;
 }
 
 
-.flecha-arriba {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+.article-cliente {
+    background-color: #ffffff;
+    margin: 25px auto;
+    padding: 25px;
+    width: 25%;
+    border-radius: 12px;
+    border-left: 6px solid #444138;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
 }
 
-.flecha-arriba a {
-    background-color: #eeb906;
-    padding: 10px;
-    border-radius: 50%;
-    text-decoration: none;
+table {
+    text-align: center;
+
 }
