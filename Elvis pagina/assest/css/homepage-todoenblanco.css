@@ -1,4 +1,4 @@
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,19 +9,16 @@ html {
     scroll-behavior: smooth;
 }
 
-/* BODY */
 body {
     background-color: #f4efe7;
     font-family: Arial, sans-serif;
 }
 
-/* NAV */
 nav {
     background-color: #47606f;
     padding: 10px 20px;
 }
 
-/* UL NAV (OBLIGATORIO SIN PUNTOS + EN FILA) */
 .buttons-container {
     list-style-type: none;
     display: flex;
@@ -29,13 +26,11 @@ nav {
     gap: 15px;
 }
 
-/* ITEMS NAV */
 .buttons-container li {
     display: flex;
     align-items: center;
 }
 
-/* LINKS NAV */
 .buttons-container a {
     text-decoration: none;
     background-color: #f5e6c8;
@@ -48,12 +43,10 @@ nav {
     gap: 8px;
 }
 
-/* LOGO */
 .logo {
     width: 40px;
 }
 
-/* SECCIONES */
 section {
     background-color: white;
     margin: 25px auto;
@@ -62,24 +55,21 @@ section {
     border-radius: 10px;
 }
 
-/* IMAGENES (QUE VENDEMOS) */
 .imagenes-container {
     list-style-type: none;
 
     display: flex;
     justify-content: center;
-    align-items: center; /* requerido por consigna */
+    align-items: center;
 
     gap: 20px;
-    text-align: center; /* si el texto no queda centrado */
+    text-align: center;
 }
 
-/* ITEMS */
 .imagenes-container li {
     text-align: center;
 }
 
-/* LINKS PRODUCTOS */
 .productoLink {
     text-decoration: none;
     color: black;
@@ -89,7 +79,7 @@ section {
     align-items: center;
 }
 
-/* IMAGENES */
+
 .productoLink img {
     width: 150px;
     transition: 0.3s;
@@ -99,7 +89,7 @@ section {
     transform: scale(1.05);
 }
 
-/* FOOTER */
+
 footer {
     background-color: #47606f;
     color: white;
@@ -107,7 +97,7 @@ footer {
     padding: 20px;
 }
 
-/* FLECHA */
+
 .flecha-arriba {
     position: fixed;
     bottom: 20px;
