@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
     <link rel="stylesheet" href="assest/css/global.css">
+    <link rel="stylesheet" href="assest/css/administrador.css">
     
 </head>
 <body>
@@ -17,8 +18,10 @@
       </a>
       <h2 class="nombre-empresa">TodoEnBlanco</h2>
     </div>
-    
-    <ul class="buttons-container">
+
+        <button type="button" class="btn-menu">☰</button>
+
+        <ul class="buttons-container">
 
       <li><a href="ingreso.html">Ingreso</a></li>
       <li><a href="consultar.html">Consultar</a></li>
@@ -84,9 +87,40 @@
 
         <section class="buttons">
             <input type="button" value="Modificar datos">
+            <button type="button" id="btnAltaUsuario">Alta usuario</button>
+        </section>
+
+        <section class="formularioAltaUsuario">
+            <div class="contenidoAltaUsuario">
+                <button type="button" id="btnCerrarAltaUsuario">X</button>
+                <h2>Alta de usuario</h2>
+
+                <form>
+                    <label for="nombreAlta">Nombre:</label>
+                    <input type="text" id="nombreAlta" name="nombreAlta" placeholder="Ingrese el nombre">
+
+                    <label for="apellidoAlta">Apellido:</label>
+                    <input type="text" id="apellidoAlta" name="apellidoAlta" placeholder="Ingrese el apellido">
+
+                    <label for="cargoAlta">Cargo:</label>
+                    <select id="cargoAlta" name="cargoAlta">
+                        <option>Jefe de carga</option>
+                        <option>Jefe de logística</option>
+                        <option>Logística</option>
+                        <option>Transportista</option>
+                    </select>
+
+                    <label for="cedulaAlta">Cédula:</label>
+                    <input type="text" id="cedulaAlta" name="cedulaAlta" placeholder="Ingrese la cédula">
+
+                    <input type="button" value="Guardar">
+                </form>
+            </div>
         </section>
 
     </section>
 
+    <script src="assest/js/menuResponsive.js"></script>
+    <script src="assest/js/operacionesAdministrador.js"></script>
 </body>
 </html>

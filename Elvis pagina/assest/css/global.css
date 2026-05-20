@@ -206,3 +206,91 @@ select {
 }
 
 
+.btn-menu {
+    display: none;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    nav {
+        position: relative;
+        padding: 10px;
+        align-items: flex-start;
+    }
+
+    .nav-left {
+        max-width: 75%;
+    }
+
+    .logo {
+        width: 45px;
+        margin-right: 8px;
+    }
+
+    .nombre-empresa {
+        font-size: 18px;
+    }
+
+    .btn-menu {
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        padding: 8px 12px;
+        font-size: 20px;
+    }
+
+    .buttons-container {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 0 0 0;
+        margin: 60px 0 0 0;
+        gap: 8px;
+    }
+
+    .buttons-container.menu-abierto {
+        display: flex;
+    }
+
+    .buttons-container li {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    .buttons-container a {
+        display: block;
+        text-align: center;
+    }
+
+    section {
+        width: 90%;
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    img {
+        max-width: 90%;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 6px;
+    }
+
+    input,
+    textarea,
+    select {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    footer {
+        padding: 18px;
+    }
+}
